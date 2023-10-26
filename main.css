@@ -1,0 +1,213 @@
+body {
+    background-image: url(media/Media/fondofondo.jpg);
+}
+
+.logo {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(245, 245, 220, 0.514);
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.t {
+    font-size: 80px;
+    display: block;
+}
+
+.tt {
+    display: block;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+
+.fondo1 {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(245, 245, 220, 0.5);
+    padding: 30px;
+}
+
+.contenedorimagenes {
+
+    width: 95%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(245, 245, 220, 0.5)
+}
+
+.quienessomos {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 90%;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    background-color: rgba(245, 245, 220, 0.63);
+}
+
+.b {
+    font-size: 35px ;
+    
+}
+
+.menu {
+    padding: 0px;
+    list-style: none;
+    font-size: 0px;
+}
+
+.img-inicio{
+width: 320px;
+height: 240px;
+}
+
+.lili {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+
+.aa {
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    color: black;
+    background-color: rgba(245, 245, 220, 0.5);
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+  }
+
+.aa:hover {
+    background-color: rgb(219, 197, 170);
+}  
+
+.cajafooter {
+    width: 1200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(245, 245, 220, 0.5);
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+
+}
+
+.contactos li {
+    list-style: none;
+    padding-right: 200px;
+
+}
+
+.p1 {
+    margin-top: 80px;
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 0px;
+}
+
+
+
+.imagenescontacto {
+    padding: 2px;
+    display: block;
+    padding-left: 200px;
+}
+
+.fondofondofondo {
+    background-color: rgba(245, 245, 220, 0.5); 
+    border: solid black 1px;
+    
+}
+
+/* para mobile  */
+@media screen and (max-width: 480px) {
+
+    .img-inicio{
+        width: 100px;
+        height: 80px;
+        }
+    
+    .contenedorimagenes {
+            width: 90%;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgba(245, 245, 220, 0.5)
+    }
+
+    .fondo1 {
+        width: 80%;
+        margin: 0 auto;
+        background-color: rgba(245, 245, 220, 0.5);
+        padding: 30px;
+    }
+
+    .quienessomos {
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 20px;
+        width: 90%;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Dosis', sans-serif;
+        background-color: rgba(245, 245, 220, 0.63);
+    }
+
+    
+    .cajafooter {
+        width: 300px;
+        height: 180px;
+        padding: 3px;
+        margin: 3px;
+        margin-left: 30px;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(245, 245, 220, 0.5);
+        font-family: 'Dosis', sans-serif;
+        font-size: 18px;
+    
+    }
+    
+    .contactos li {
+        list-style: none;
+        padding-right: 50px;
+    
+    }
+    
+    .p1 {
+        margin-top: 50px;
+        font-size: 15px;
+        letter-spacing: 5px;
+        text-align: center;
+        padding: 0px;
+    }
+    
+    
+    
+    .imagenescontacto {
+        padding: 2px;
+        display: block;
+        padding-left: 50px;
+    }
+
+}

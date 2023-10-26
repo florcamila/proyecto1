@@ -1,0 +1,245 @@
+body {
+    background-image: url(media/Media/fondofondo.jpg);
+}
+
+.menu {
+    padding: 0px;
+    list-style: none;
+    font-size: 0px;
+}
+
+.lili {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+
+.aa {
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    color: black;
+    background-color: rgba(245, 245, 220, 0.5);
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+  }
+
+.aa:hover {
+    background-color: rgb(219, 197, 170);
+}
+
+
+.volver-inicio {
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.titulo {
+    display: block;
+    font-size: 100px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(245, 245, 220, 0.514);
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.titulitos {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.fondo1 {
+        width: 90%;
+        margin: 0 auto;
+        background-color: rgba(245, 245, 220, 0.5);
+        padding: 30px;
+        border: 1px solid black;
+}
+
+.intervencion {
+    background-color: rgba(245, 245, 220, 0.74);
+    width: 95%;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+
+.intervencionimagenes {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.pintura {
+    background-color: rgba(245, 245, 220, 0.74);
+    width: 95%;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.pinturaimagenes {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.decoupage {
+    background-color: rgba(245, 245, 220, 0.74);
+    width: 95%;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.decoupageimagenes {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cajafooter {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(245, 245, 220, 0.74);
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+
+}
+
+.contactos li {
+    list-style: none;
+
+}
+
+.p1 {
+    margin-top: 50px;
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.contacto1 {
+    padding-right: 70px;
+}
+
+.imagenescontacto {
+        padding-left: 120px;
+}
+
+.ramos {
+    background-color: rgba(245, 245, 220, 0.74);
+    width: 95%;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .cajafooter {
+        width: 300px;
+        height: 180px;
+        padding: 3px;
+        margin: 3px;
+        margin-left: 30px;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(245, 245, 220, 0.5);
+        font-family: 'Dosis', sans-serif;
+        font-size: 18px;
+    
+    }
+    
+    .contactos li {
+        list-style: none;
+        padding-right: 50px;
+    
+    }
+    
+    .p1 {
+        margin-top: 50px;
+        font-size: 15px;
+        letter-spacing: 5px;
+        text-align: center;
+        padding: 0px;
+    }
+    
+       
+    .imagenescontacto {
+        padding: 2px;
+        display: block;
+        padding-left: 50px;
+    }
+    
+    .intervencionimagenes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pinturaimagenes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .decoupageimagenes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intervencion {
+        background-color: rgba(245, 245, 220, 0.74);
+        width: 95%;
+        padding: 10px;
+        border: 1px solid black;
+        margin: 2px;
+        
+    }
+
+    .decoupage {
+        background-color: rgba(245, 245, 220, 0.74);
+        width: 95%;
+        padding: 10px;
+        border: 1px solid black;
+        margin: 2px;
+    }
+
+    .ramos {
+        background-color: rgba(245, 245, 220, 0.74);
+        width: 95%;
+        padding: 10px;
+        border: 1px solid black;
+        margin: 2px;
+    }
+
+    .pintura {
+        background-color: rgba(245, 245, 220, 0.74);
+        width: 95%;
+        padding: 10px;
+        border: 1px solid black;
+        margin: 2px;
+    }
+}
+

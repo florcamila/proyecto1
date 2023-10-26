@@ -1,0 +1,368 @@
+body {
+    background-image: url(media/Media/fondofondo.jpg);
+}
+
+.menu {
+    padding: 0px;
+    list-style: none;
+    font-size: 0px;
+}
+
+.lili {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+
+.aa {
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    color: black;
+    background-color: rgba(245, 245, 220, 0.5);
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+  }
+
+.aa:hover {
+    background-color: rgba(219, 197, 170, 0.425);
+}
+
+.Título {
+    display: block;
+    font-size: 100px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(245, 245, 220, 0.514);
+    font-family: 'Dancing Script', cursive;
+}
+
+.fondo1 {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(245, 245, 220, 0.76);
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.primerbloque {
+    border: solid rgba(0, 0, 0, 0.438) 2px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.segundobloque {
+    border: solid rgba(0, 0, 0, 0.438) 2px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tercerbloque {
+    border: solid rgba(0, 0, 0, 0.438) 2px;
+    padding: 40px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.cuartobloque {
+    border: solid rgba(0, 0, 0, 0.438) 2px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+ 
+
+.tituloschicos {
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    display: FLEX;
+    justify-content: center;    
+}
+
+.uno {
+    width: 300px;
+    height: 200px;
+}
+
+.dos {
+    width:300px;
+    height: 250px;
+}
+
+.tres {
+    width:200px;
+    height: 250px;
+}
+
+.cuatro {
+    width: 200px;
+    height: 250px;
+}
+
+.cinco {
+    width: 200px; 
+    height: 200px;              
+}
+
+.seis {
+    width: 300px;
+    height: 250px; 
+}
+
+.siete {
+    width: 300px; 
+    height: 250px;
+}
+                
+.ocho {
+    width: 400px;
+    height: 300px;
+} 
+
+.nueve {
+    width: 400px;
+    height: 300px; 
+}
+                
+.diez {
+    width: 350px;
+    height: 300px;
+}
+
+.once{
+    width: 340px; 
+    height:300px;
+}
+
+.doce{
+    width: 200px;
+    height: 350px;
+}
+
+.trece{
+    width: 300px;
+    height: 300px;
+}
+ 
+.catorce{
+    width: 300px; 
+    height: 250px;
+}
+
+.quince{
+    width: 300px; 
+    height: 400px;
+}
+
+.dieciseis{
+    width: 350px; 
+    height: 200px;
+}
+
+.diecisiete {
+    width:350px; 
+    height:300px;
+}
+
+.dieciocho {
+    width:200px; 
+    height:300px;
+}
+
+.diecinueve {
+    width:200px; 
+    height:300px;
+}
+
+
+.veinte{
+    width: 250px;
+    height: 300px;
+}
+            
+.veintiuno {
+    width: 200px;
+    height: 300px;
+}
+    
+.veintidos {
+    width: 200px;
+    height: 300px;
+} 
+
+.veintitres {
+    width: 200px;
+    height: 300px;
+}
+
+                 
+                
+                
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    
+    
+    .fondo1 {
+        width: 100%;
+        margin: 0 auto;
+        background-color: rgba(245, 245, 220, 0.76);
+        padding: 3px;
+        border: 0.2px solid black;
+    }
+    
+    .images {
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+    }
+    .primerbloque {
+        border: solid rgba(0, 0, 0, 0.438) 2px;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    
+    .segundobloque {
+        border: solid rgba(0, 0, 0, 0.438) 2px;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tercerbloque {
+        border: solid rgba(0, 0, 0, 0.438) 2px;
+        padding: 40px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    
+    .cuartobloque {
+        border: solid rgba(0, 0, 0, 0.438) 2px;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+     
+    
+    .tituloschicos {
+        font-family: 'Dosis', sans-serif;
+        font-size: 35px;
+        display: flex;
+        text-align: center;  
+        padding-bottom: -20px;
+    }
+
+    .ocho {
+        width: 300px;
+        height: 200px;
+    } 
+    
+    .nueve {
+        width: 300px;
+        height: 200px;
+    }
+                    
+    .diez {
+        width: 250px;
+        height: 200px;
+    }
+
+    .once{
+        width: 290px; 
+        height: 230px;
+    }
+    
+    .trece{
+        width: 200px;
+        height: 200px;
+    }
+     
+    .catorce{
+        width: 250px; 
+        height: 200px;
+    }
+
+    
+    .quince{
+        width: 200px; 
+        height: 300px;
+    }
+
+    .dieciseis {
+        width: 280px; 
+        height: 190px;
+    }
+
+    .diecisiete {
+        width: 290px; 
+        height: 250px;
+    }
+    
+}
+
+/*.primerbloque {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.segundobloque {
+    width: 200px;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+}
+
+.tercerbloque {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.cuartobloque {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quintobloque {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.sextobloque {
+    display: flex;
+    justify-content: space-between;
+}
+
+.septimobloque {
+    display: flex;
+    justify-self: space-between;
+}
+*/
